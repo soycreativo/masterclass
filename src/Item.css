@@ -1,0 +1,33 @@
+.item{
+
+    display: inline-block;
+    padding: 10px;
+    margin: 200px;
+    width: 200px;
+    vertical-align: top;
+}
+.item .image img{
+    height: 330px;
+}
+
+.item .title{
+    font-weight: bold;
+    font-size: 18px;
+    height: 60px;
+}
+
+.item .actions{
+    width: 100%;
+    border-top: solid 1px #bbb;
+    margin-top: 10px;
+}
+
+.item .actions button{
+    border: 0;
+    border-radius: 3px;
+    background-color: rgb(179, 57, 83);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    width: 100%;
+}
